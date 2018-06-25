@@ -1,0 +1,1 @@
+double Atan2(double y, double x);

@@ -1,0 +1,89 @@
+﻿生成启动时间为 2016/8/18 1:00:53。
+     1>项目“C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src\applications\EarthGlobal\EarthGlobal.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing MainWindow.h...
+         Uic'ing earthglobal.ui...
+         Moc'ing KeyPressEater.h...
+         Moc'ing MouseMoveFilter.h...
+         Moc'ing targetdatadlg.h...
+         Moc'ing ViewPointSyn.h...
+         Moc'ing AboutDialog.h...
+         Moc'ing RibbonWindow.h...
+         Rcc'ing earthglobal.qrc...
+     1>RCC : warning : No resources in 'C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src\applications\EarthGlobal\earthglobal.qrc'.
+         
+         Uic'ing targetdatadlg.ui...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_KeyPressEater.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_KeyPressEater.cpp, GeneratedFiles\Release\moc_KeyPressEater.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_MainWindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_MainWindow.cpp, GeneratedFiles\Release\moc_MainWindow.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_MouseMoveFilter.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_MouseMoveFilter.cpp, GeneratedFiles\Release\moc_MouseMoveFilter.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_targetdatadlg.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_targetdatadlg.cpp, GeneratedFiles\Release\moc_targetdatadlg.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_ViewPointSyn.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_ViewPointSyn.cpp, GeneratedFiles\Release\moc_ViewPointSyn.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_AboutDialog.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_AboutDialog.cpp, GeneratedFiles\Release\moc_AboutDialog.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_RibbonWindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_RibbonWindow.cpp, GeneratedFiles\Release\moc_RibbonWindow.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\OSG_OSGEarth\QtitanRibbon4.4\include /I"C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src" /I"C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\include" /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.0\5.6\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtGui /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtQml /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtOpenGL /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtXml /IC:\OSG_OSGEarth\3rdParty_VS2012.3_v110_x86_x64_V8b_full\3rdParty_x86_x64\x86\include /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AboutDialog.cpp AirDataReader.cpp CompositeViewerWidget.cpp EagleEyeEarthManipulator.cpp GeneratedFiles\Release\moc_KeyPressEater.cpp GeneratedFiles\Release\moc_MainWindow.cpp GeneratedFiles\Release\moc_MouseMoveFilter.cpp GeneratedFiles\Release\moc_targetdatadlg.cpp GeneratedFiles\Release\moc_ViewPointSyn.cpp KeyPressEater.cpp MainWindow.cpp GeneratedFiles\Release\moc_AboutDialog.cpp GeneratedFiles\Release\moc_RibbonWindow.cpp main.cpp moc_DemoMainWindow.cpp ModelLayerReader.cpp MouseMoveFilter.cpp osgviewerqt.cpp ribbonimages.cpp RibbonWindow.cpp targetdatadlg.cpp TargetDataReader.cpp ViewPointSyn.cpp
+         AboutDialog.cpp
+         AirDataReader.cpp
+         CompositeViewerWidget.cpp
+         EagleEyeEarthManipulator.cpp
+         moc_KeyPressEater.cpp
+         moc_MainWindow.cpp
+         moc_MouseMoveFilter.cpp
+         moc_targetdatadlg.cpp
+         moc_ViewPointSyn.cpp
+         KeyPressEater.cpp
+         MainWindow.cpp
+         moc_AboutDialog.cpp
+         moc_RibbonWindow.cpp
+         main.cpp
+         moc_DemoMainWindow.cpp
+         ModelLayerReader.cpp
+         MouseMoveFilter.cpp
+         osgviewerqt.cpp
+         ribbonimages.cpp
+         RibbonWindow.cpp
+         正在生成代码...
+         正在编译...
+         targetdatadlg.cpp
+         TargetDataReader.cpp
+         ViewPointSyn.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\OSG_OSGEarth\QtitanRibbon4.4\include /I"C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src" /I"C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\include" /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.0\5.6\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtGui /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtQml /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtOpenGL /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtXml /IC:\OSG_OSGEarth\3rdParty_VS2012.3_v110_x86_x64_V8b_full\3rdParty_x86_x64\x86\include /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_earthglobal.cpp
+         qrc_earthglobal.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\Win32\Release\\EarthGlobal.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.6.0\5.6\msvc2013\lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\..\lib\Release\osgEarthUtil.lib ..\..\..\lib\Release\osgEarthAnnotation.lib "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osg.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgDB.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgUtil.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgViewer.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\OpenThreads.lib" ..\..\..\lib\Release\osgEarthFeatures.lib ..\..\..\lib\Release\osgEarthSymbology.lib ..\..\..\lib\Release\osgEarth.lib ws2_32.lib winmm.lib wldap32.lib C:\OSG_OSGEarth\3rdParty_VS2012.3_v110_x86_x64_V8b_full\3rdParty_x86_x64\x86\lib\libcurl.lib C:\OSG_OSGEarth\3rdParty_VS2012.3_v110_x86_x64_V8b_full\3rdParty_x86_x64\x86\lib\zlib.lib "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgWidget.lib" "C:\OSG_OSGEarth\geos-3.5.0\src\geos_i.lib" C:\OSG_OSGEarth\3rdParty_VS2012.3_v110_x86_x64_V8b_full\3rdParty_x86_x64\x86\lib\gdal_i.lib "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgSim.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgTerrain.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgFX.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgText.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgGA.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgShadow.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgManipulator.lib" glu32.lib opengl32.lib C:\OSG_OSGEarth\QtitanRibbon4.4\lib\win32\qtnribbond4.lib C:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5OpenGL.lib C:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5Widgets.lib C:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5Gui.lib C:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5Core.lib C:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5PrintSupport.lib "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgQt.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\Win32\Release\EarthGlobal.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\Win32\Release\EarthGlobal.lib" /MACHINE:X86 /SAFESEH Release\AboutDialog.obj
+         Release\AirDataReader.obj
+         Release\CompositeViewerWidget.obj
+         Release\EagleEyeEarthManipulator.obj
+         Release\moc_KeyPressEater.obj
+         Release\moc_MainWindow.obj
+         Release\moc_MouseMoveFilter.obj
+         Release\moc_targetdatadlg.obj
+         Release\moc_ViewPointSyn.obj
+         Release\KeyPressEater.obj
+         Release\MainWindow.obj
+         Release\qrc_earthglobal.obj
+         Release\moc_AboutDialog.obj
+         Release\moc_RibbonWindow.obj
+         Release\main.obj
+         Release\moc_DemoMainWindow.obj
+         Release\ModelLayerReader.obj
+         Release\MouseMoveFilter.obj
+         Release\osgviewerqt.obj
+         Release\ribbonimages.obj
+         Release\RibbonWindow.obj
+         Release\targetdatadlg.obj
+         Release\TargetDataReader.obj
+         Release\ViewPointSyn.obj
+         "C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\lib\Release\osgEarthAnnotation.lib"
+         "C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\lib\Release\osgEarthFeatures.lib"
+         "C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\lib\Release\osgEarthQt.lib"
+         "C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\lib\Release\osgEarthSymbology.lib"
+         "C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\lib\Release\osgEarthUtil.lib"
+            正在创建库 C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\Win32\Release\EarthGlobal.lib 和对象 C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\Win32\Release\EarthGlobal.exp
+         EarthGlobal.vcxproj -> C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\Win32\Release\EarthGlobal.exe
+     1>已完成生成项目“C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src\applications\EarthGlobal\EarthGlobal.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:07.62

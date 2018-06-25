@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Target2PltDlg</class>
+ <widget class="QDialog" name="Target2PltDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>418</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>目标转plt</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_Tri">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开Tri文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Tmp">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开Tmp文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_OutPlt">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择输出路径</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_Tri">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>271</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_Tmp">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>90</y>
+     <width>271</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_OutPlt">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>140</y>
+     <width>271</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_OK">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>190</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_Tri</sender>
+   <signal>clicked()</signal>
+   <receiver>Target2PltDlg</receiver>
+   <slot>slotOpenTri()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>137</x>
+     <y>73</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Tmp</sender>
+   <signal>clicked()</signal>
+   <receiver>Target2PltDlg</receiver>
+   <slot>slotOpenTmp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>101</x>
+     <y>117</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_OutPlt</sender>
+   <signal>clicked()</signal>
+   <receiver>Target2PltDlg</receiver>
+   <slot>slotOpenOutputFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>76</x>
+     <y>152</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>95</x>
+     <y>177</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_OK</sender>
+   <signal>clicked()</signal>
+   <receiver>Target2PltDlg</receiver>
+   <slot>slotOK()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>342</x>
+     <y>198</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>178</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slotOpenTri()</slot>
+  <slot>slotOpenTmp()</slot>
+  <slot>slotOpenOutputFile()</slot>
+  <slot>slotOK()</slot>
+ </slots>
+</ui>

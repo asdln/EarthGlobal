@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AnimationSettingsDlg</class>
+ <widget class="QDialog" name="AnimationSettingsDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>366</width>
+    <height>219</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AnimationSettingsDlg</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_SetPath">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设置保存路径</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_Path">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>20</y>
+     <width>231</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_SetPath</sender>
+   <signal>clicked()</signal>
+   <receiver>AnimationSettingsDlg</receiver>
+   <slot>slotSetSavePath()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>63</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>168</x>
+     <y>93</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slotSetSavePath()</slot>
+ </slots>
+</ui>

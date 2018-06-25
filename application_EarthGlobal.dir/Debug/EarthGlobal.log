@@ -1,0 +1,101 @@
+﻿生成启动时间为 2018/1/14 17:02:16。
+     1>项目“C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src\applications\EarthGlobal\EarthGlobal.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\OSG_OSGEarth\opencv-2.4.9-vc12\include" /IC:\OSG_OSGEarth\QtitanRibbon4.4\include /I"C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src" /I"C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\include" /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.0\5.6\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtGui /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtQml /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtOpenGL /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtXml /IC:\OSG_OSGEarth\3rdParty_VS2013_v120_x86_x64_V9_full\3rdParty_x86_x64\x86\include /Zi /nologo /W1 /WX- /MP /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D OSGEARTH_HAVE_MINIZIP /D _MBCS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"application_EarthGlobal.dir\Debug\\" /Fd"application_EarthGlobal.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Document.cpp MainWindow.cpp TargetDataReader.cpp
+         Document.cpp
+         MainWindow.cpp
+         TargetDataReader.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\OSG_OSGEarth\opencv-2.4.9-vc12\include" /IC:\OSG_OSGEarth\QtitanRibbon4.4\include /I"C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src" /I"C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\include" /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.0\5.6\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtGui /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtQml /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtOpenGL /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtXml /IC:\OSG_OSGEarth\3rdParty_VS2013_v120_x86_x64_V9_full\3rdParty_x86_x64\x86\include /Zi /nologo /W1 /WX- /MP /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D OSGEARTH_HAVE_MINIZIP /D _MBCS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"application_EarthGlobal.dir\Debug\\" /Fd"application_EarthGlobal.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_earthglobal.cpp
+         qrc_earthglobal.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\bin\Debug\EarthGlobalD.exe" /NOLOGO /LIBPATH:"C:\OSG_OSGEarth\opencv-2.4.9-vc12\lib" /LIBPATH:"C:/OSG_OSGEarth/gwaldron-osgearth-2.7-0-g25ce0e1/lib" /LIBPATH:"C:/OSG_OSGEarth/gwaldron-osgearth-2.7-0-g25ce0e1/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\..\lib\Debug\osgEarthQtd.lib ..\..\..\lib\Debug\osgEarthUtild.lib ..\..\..\lib\Debug\osgEarthAnnotationd.lib ..\..\..\lib\Debug\osgEarthFeaturesd.lib ..\..\..\lib\Debug\osgEarthSymbologyd.lib ..\..\..\lib\Debug\osgEarthd.lib ws2_32.lib winmm.lib wldap32.lib "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgShadowd.lib" C:\OSG_OSGEarth\3rdParty_VS2013_v120_x86_x64_V9_full\3rdParty_x86_x64\x86\lib\libcurld.lib C:\OSG_OSGEarth\3rdParty_VS2013_v120_x86_x64_V9_full\3rdParty_x86_x64\x86\lib\zlibd.lib "C:\OSG_OSGEarth\geos-3.5.0\src\geos_i.lib" C:\OSG_OSGEarth\3rdParty_VS2013_v120_x86_x64_V9_full\3rdParty_x86_x64\x86\lib\gdal_i.lib "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgManipulatord.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgd.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgWidgetd.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgUtild.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgSimd.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgTerraind.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgDBd.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgFXd.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgViewerd.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgTextd.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgGAd.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\osgQtd.lib" "C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\lib\OpenThreadsd.lib" glu32.lib opengl32.lib C:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5OpenGLd.lib C:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5Widgetsd.lib C:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5Guid.lib C:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5Cored.lib C:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5PrintSupportd.lib C:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5Xmld.lib C:\OSG_OSGEarth\QtitanRibbon4.4\lib\win32\qtnribbond4.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/OSG_OSGEarth/gwaldron-osgearth-2.7-0-g25ce0e1/bin/Debug/EarthGlobalD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\bin\Debug\EarthGlobalD.lib" /MACHINE:X86 /SAFESEH application_EarthGlobal.dir\Debug\EarthGlobal.res
+         application_EarthGlobal.dir\Debug\AboutDialog.obj
+         application_EarthGlobal.dir\Debug\AirDataDlg.obj
+         application_EarthGlobal.dir\Debug\AirDataParaWidget.obj
+         application_EarthGlobal.dir\Debug\AirDataReader.obj
+         application_EarthGlobal.dir\Debug\AnimationController.obj
+         application_EarthGlobal.dir\Debug\AnimationLoader.obj
+         application_EarthGlobal.dir\Debug\AnimationSettingsDlg.obj
+         application_EarthGlobal.dir\Debug\Atan2.obj
+         application_EarthGlobal.dir\Debug\CameraPath.obj
+         application_EarthGlobal.dir\Debug\CameraPostionDlg.obj
+         application_EarthGlobal.dir\Debug\CentralWidget.obj
+         application_EarthGlobal.dir\Debug\CompositeViewerWidget.obj
+         application_EarthGlobal.dir\Debug\DirectEarthManipulator.obj
+         application_EarthGlobal.dir\Debug\DirectManipulatorDlg.obj
+         application_EarthGlobal.dir\Debug\Document.obj
+         application_EarthGlobal.dir\Debug\EagleEyeEarthManipulator.obj
+         application_EarthGlobal.dir\Debug\moc_AirDataDlg.obj
+         application_EarthGlobal.dir\Debug\moc_AirDataParaWidget.obj
+         application_EarthGlobal.dir\Debug\moc_AnimationSettingsDlg.obj
+         application_EarthGlobal.dir\Debug\moc_CameraPostionDlg.obj
+         application_EarthGlobal.dir\Debug\moc_CentralWidget.obj
+         application_EarthGlobal.dir\Debug\moc_DirectManipulatorDlg.obj
+         application_EarthGlobal.dir\Debug\moc_JetThresholdDlg.obj
+         application_EarthGlobal.dir\Debug\moc_KeyPressEater.obj
+         application_EarthGlobal.dir\Debug\moc_MainWindow.obj
+         application_EarthGlobal.dir\Debug\moc_MouseMoveFilter.obj
+         application_EarthGlobal.dir\Debug\moc_NewProjectDlg.obj
+         application_EarthGlobal.dir\Debug\moc_OutputDlg.obj
+         application_EarthGlobal.dir\Debug\moc_PictureBox.obj
+         application_EarthGlobal.dir\Debug\moc_PltTempDlg.obj
+         application_EarthGlobal.dir\Debug\moc_ProgressNumberWidget.obj
+         application_EarthGlobal.dir\Debug\moc_RangeFeatureGenerator.obj
+         application_EarthGlobal.dir\Debug\moc_RenderModeDlg.obj
+         application_EarthGlobal.dir\Debug\moc_SetParaDockWidget.obj
+         application_EarthGlobal.dir\Debug\moc_SetStartFrameDlg.obj
+         application_EarthGlobal.dir\Debug\moc_Target2PltDlg.obj
+         application_EarthGlobal.dir\Debug\moc_targetdatadlg.obj
+         application_EarthGlobal.dir\Debug\moc_TargetPosition.obj
+         application_EarthGlobal.dir\Debug\moc_TransDataToRadioDlg.obj
+         application_EarthGlobal.dir\Debug\moc_ViewPointSyn.obj
+         application_EarthGlobal.dir\Debug\Geo_xyz.obj
+         application_EarthGlobal.dir\Debug\JetHideCallback.obj
+         application_EarthGlobal.dir\Debug\JetThresholdDlg.obj
+         application_EarthGlobal.dir\Debug\KeyPressEater.obj
+         application_EarthGlobal.dir\Debug\line2atmosphere.obj
+         application_EarthGlobal.dir\Debug\MainWindow.obj
+         application_EarthGlobal.dir\Debug\moc_AboutDialog.obj
+         application_EarthGlobal.dir\Debug\moc_RibbonWindow.obj
+         application_EarthGlobal.dir\Debug\qrc_earthglobal.obj
+         application_EarthGlobal.dir\Debug\main.obj
+         application_EarthGlobal.dir\Debug\moc_DemoMainWindow.obj
+         application_EarthGlobal.dir\Debug\ModelLayerReader.obj
+         application_EarthGlobal.dir\Debug\MouseMoveFilter.obj
+         application_EarthGlobal.dir\Debug\NewProjectDlg.obj
+         application_EarthGlobal.dir\Debug\OEAnimationPath.obj
+         application_EarthGlobal.dir\Debug\osgviewerqt.obj
+         application_EarthGlobal.dir\Debug\OutputDlg.obj
+         application_EarthGlobal.dir\Debug\PathEarthManipulate.obj
+         application_EarthGlobal.dir\Debug\PictureBox.obj
+         application_EarthGlobal.dir\Debug\PltReader.obj
+         application_EarthGlobal.dir\Debug\PltTempDlg.obj
+         application_EarthGlobal.dir\Debug\ProgressNumberWidget.obj
+         application_EarthGlobal.dir\Debug\RangeFeatureGenerator.obj
+         application_EarthGlobal.dir\Debug\RenderModeDlg.obj
+         application_EarthGlobal.dir\Debug\ribbonimages.obj
+         application_EarthGlobal.dir\Debug\RibbonWindow.obj
+         application_EarthGlobal.dir\Debug\ScreenCapture.obj
+         application_EarthGlobal.dir\Debug\SetParaDockWidget.obj
+         application_EarthGlobal.dir\Debug\SetStartFrameDlg.obj
+         application_EarthGlobal.dir\Debug\SysUtility.obj
+         application_EarthGlobal.dir\Debug\Target2PltDlg.obj
+         application_EarthGlobal.dir\Debug\TargetAnimationPathCallback.obj
+         application_EarthGlobal.dir\Debug\targetdatadlg.obj
+         application_EarthGlobal.dir\Debug\TargetDataReader.obj
+         application_EarthGlobal.dir\Debug\Targetfile2tecplot.obj
+         application_EarthGlobal.dir\Debug\TargetPath.obj
+         application_EarthGlobal.dir\Debug\TargetPosition.obj
+         application_EarthGlobal.dir\Debug\Temp2radiance.obj
+         application_EarthGlobal.dir\Debug\tempos.obj
+         application_EarthGlobal.dir\Debug\TransDataToRadioDlg.obj
+         application_EarthGlobal.dir\Debug\Utility.obj
+         application_EarthGlobal.dir\Debug\VideoMaker.obj
+         application_EarthGlobal.dir\Debug\viewpoint2target.obj
+         application_EarthGlobal.dir\Debug\ViewPointSyn.obj
+         EarthGlobal.vcxproj -> C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\bin\Debug\EarthGlobalD.exe
+     1>已完成生成项目“C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src\applications\EarthGlobal\EarthGlobal.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:22.20

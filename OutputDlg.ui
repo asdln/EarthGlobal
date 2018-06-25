@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OutputDlg</class>
+ <widget class="QWidget" name="OutputDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>390</width>
+    <height>195</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>导出图片</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_FilePath">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设置路径</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_OutputPath">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>30</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Open">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>浏览最近一张</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>60</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>对齐方式</string>
+   </property>
+   <widget class="QRadioButton" name="radioButton_Right">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>右对齐</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_Left">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>左对齐</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_OutputFloat">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输出浮点型文件</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>107</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_OutputLevel">
+      <item>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>12</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>14</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>16</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>量化等级: </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Look">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>150</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>浏览</string>
+   </property>
+  </widget>
+  <zorder>layoutWidget</zorder>
+  <zorder>pushButton_FilePath</zorder>
+  <zorder>lineEdit_OutputPath</zorder>
+  <zorder>pushButton_Open</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>checkBox_OutputFloat</zorder>
+  <zorder>pushButton_Look</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_FilePath</sender>
+   <signal>clicked()</signal>
+   <receiver>OutputDlg</receiver>
+   <slot>slotSetPath()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>49</x>
+     <y>40</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>180</x>
+     <y>77</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Open</sender>
+   <signal>clicked()</signal>
+   <receiver>OutputDlg</receiver>
+   <slot>slotShowLastPic()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>83</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>183</x>
+     <y>135</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_OutputLevel</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>OutputDlg</receiver>
+   <slot>slotOutputLevel(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>125</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>164</x>
+     <y>98</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_Left</sender>
+   <signal>clicked()</signal>
+   <receiver>OutputDlg</receiver>
+   <slot>slotLeftAliment()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>86</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>352</x>
+     <y>74</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_Right</sender>
+   <signal>clicked()</signal>
+   <receiver>OutputDlg</receiver>
+   <slot>slotRightAliment()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>220</x>
+     <y>119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>364</x>
+     <y>118</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_OutputFloat</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>OutputDlg</receiver>
+   <slot>slotOutputFloat(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>104</x>
+     <y>76</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Look</sender>
+   <signal>clicked()</signal>
+   <receiver>OutputDlg</receiver>
+   <slot>slotSelectAndOpen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>163</x>
+     <y>220</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>237</x>
+     <y>179</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slotSetPath()</slot>
+  <slot>slotOutput()</slot>
+  <slot>slotShowLastPic()</slot>
+  <slot>slotOutputLevel(int)</slot>
+  <slot>slotLeftAliment()</slot>
+  <slot>slotRightAliment()</slot>
+  <slot>slotOutputFloat(bool)</slot>
+  <slot>slotSelectAndOpen()</slot>
+  <slot>slotSetStartFrame(int)</slot>
+ </slots>
+</ui>
