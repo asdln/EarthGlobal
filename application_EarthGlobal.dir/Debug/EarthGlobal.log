@@ -1,10 +1,6 @@
-﻿生成启动时间为 2018/1/14 17:02:16。
+﻿生成启动时间为 2018/11/21 16:27:45。
      1>项目“C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src\applications\EarthGlobal\EarthGlobal.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\OSG_OSGEarth\opencv-2.4.9-vc12\include" /IC:\OSG_OSGEarth\QtitanRibbon4.4\include /I"C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src" /I"C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\include" /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.0\5.6\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtGui /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtQml /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtOpenGL /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtXml /IC:\OSG_OSGEarth\3rdParty_VS2013_v120_x86_x64_V9_full\3rdParty_x86_x64\x86\include /Zi /nologo /W1 /WX- /MP /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D OSGEARTH_HAVE_MINIZIP /D _MBCS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"application_EarthGlobal.dir\Debug\\" /Fd"application_EarthGlobal.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Document.cpp MainWindow.cpp TargetDataReader.cpp
-         Document.cpp
-         MainWindow.cpp
-         TargetDataReader.cpp
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\OSG_OSGEarth\opencv-2.4.9-vc12\include" /IC:\OSG_OSGEarth\QtitanRibbon4.4\include /I"C:\OSG_OSGEarth\gwaldron-osgearth-2.7-0-g25ce0e1\src" /I"C:\OSG_OSGEarth\OpenSceneGraph-3.4.0\include" /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.0\5.6\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtGui /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtQml /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtOpenGL /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets /IC:\Qt\Qt5.6.0\5.6\msvc2013\include\QtXml /IC:\OSG_OSGEarth\3rdParty_VS2013_v120_x86_x64_V9_full\3rdParty_x86_x64\x86\include /Zi /nologo /W1 /WX- /MP /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D OSGEARTH_HAVE_MINIZIP /D _MBCS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"application_EarthGlobal.dir\Debug\\" /Fd"application_EarthGlobal.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_earthglobal.cpp
          qrc_earthglobal.cpp
        Link:
@@ -98,4 +94,4 @@
 
 生成成功。
 
-已用时间 00:00:22.20
+已用时间 00:00:01.18

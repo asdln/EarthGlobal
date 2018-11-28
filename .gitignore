@@ -1,0 +1,5 @@
+
+*.log
+application_EarthGlobal.dir/Debug/EarthGlobal.log
+application_EarthGlobal.dir/Debug/qrc_earthglobal.obj
+EarthGlobal.vcxproj.user
